@@ -94,6 +94,56 @@ Polska
 		<p> <input type="radio" name="gr_op" value="podstawowe" acceskey="p" /> podstawowe [skrót ALT + P] <br />
 		<p> <input type="radio" name="gr_op" value="średnie" acceskey="s" /> średnie [skrót ALT + P] <br />
 		<p> <input type="radio" name="gr_op" value="wyższe" acceskey="w" /> wyższe [skrót ALT + P] <br />
+<p>
+	<input name="adres" type="text" autocomplete="on" />
+</p>
+<p>
+	<input name="adres" type="text" autofocus />
+</p>
+<p>
+	<input type="text" name="firstname" value="Łukasz" readonly>
+</p>
+<p>
+	<input type="text" name="firstname" value="Łukasz" disable>
+</p>
+<p>
+	<input type="email">
+</p>
+<p>
+	<input type="url">
+</p>
+<p>
+	<input type="number" min="1" max="7" step="1" value="2">
+</p>
+<p>
+	<input type="date" value="2024-11-18">
+</p>
+<p>
+	<input type="color" value="#F0F0F0">
+</p>
+<p>
+	<input type="color" name="favcolor" value="#00FF00" /> <br />
+</p>
+<p>
+	<input type="submit" value="wuślij zapytanie">
+</p>
+<p>
+	<input type="range" name="points" min="0" max="10">
+</p>
+<p>
+	<input list="blok" name="przeglądarki" />
+</p>
+<p>
+	<datalist id="blok">
+		<option value="internet explorer">
+		<option value="direfox">
+		<option value="chrome">
+	</datalist> <input type="submit" name="prześlij">
+</p>
+<form action="/action_page.php" oninput="x.value=parselnt(a.value)+parselnt(b.value)">
+	0 <input type="range" id="a" name="a" value="50">
+	100+ <input type="number" id="b" name="b" value="50">
+	= <output name="x" dor="a b"> </output>
 </form>
 	
 	</div>
