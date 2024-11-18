@@ -26,7 +26,15 @@
 <form>
 	<table>
 		<tr>
-			<td><p> imie i nazwisko </td> <td> <input type="text" name="nazwisko_i_imie" size="30"/></p></td>
+			<td><p> imie i nazwisko </td> <td> <input type="text" id="myinput" name="nazwisko_i_imie" size="30" onfocus="focusFucion()" onblur="blurFucion()" /></p></td>
+				<script>
+					function focusfuction() {
+					document.getelementbyid.style.background="yellow";
+					}
+					function blurfunction() {
+					document.getelementbyid.style.background="red";
+					}
+				</script>
 		</tr>
 		<tr>
 			<td><p> e-mail </td> <td> <input type="e-mail" name="email"/></td></p>
