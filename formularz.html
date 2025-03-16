@@ -20,36 +20,13 @@
 			<a href="tabele_Wojtasiewicz.html"> tabele na ocene</a> <br />
 			<a href="lista.html"> Listy</a> <br />
 			<a href="formularz.html"> formularz</a> <br />
-			<a href="mapy_odsylaczy.html"> mapy odsyłaczy</a> <br />
-			<a href="formularz_na_ocene.html">formularz na ocene </a> <br />
-			<a href="canvas.html"> canvas</a> <br />
-		<h3> css </h3>
-			<a href="wlasciwosci_css.html"> wlasciwosci css </a> <br />
-		<h3> dokumenty </h3>
-			<a href="doc/grupaI2C.docx" target="new"> lista grupyI </a> <br />
-			<a href="doc/wydatki_grI_2C.xlsx" target="new"> wydatki grupyI </a> <br />
-		<h3> linki </h3>
-			<a href="https://www.google.com" target="new">
-			<img src="foty/goggle.PNG" width="100px"> </a> <br />
-			<a href="https://tsi-pai.cba.pl/" target="new">
-			<img src="foty/tsi.PNG" width="100px"> </a> <br />
-		<h3> multimedia </h3>
-			<a href="wideo.html"> wideo</a> <br />
 	</div>
 	<div style="float:right; width:85%; background-color:lightgray; border-style:solid none solid none; border-color:grey;">
 	
 <form>
 	<table>
 		<tr>
-			<td><p> imie i nazwisko </td> <td> <input type="text" id="myinput" name="nazwisko_i_imie" size="30" onfocus="focusFucion()" onblur="blurFucion()" /></p></td>
-				<script>
-					function focusfuction() {
-					document.getelementbyid.style.background="yellow";
-					}
-					function blurfunction() {
-					document.getelementbyid.style.background="red";
-					}
-				</script>
+			<td><p> imie i nazwisko </td> <td> <input type="text" name="nazwisko_i_imie" size="30"/></p></td>
 		</tr>
 		<tr>
 			<td><p> e-mail </td> <td> <input type="e-mail" name="email"/></td></p>
@@ -77,100 +54,6 @@
 		</optgroup>
 	</select>
 </p>
-<p>
-	wyślij ten plik <input type="file" name="plik" size="30"/>
-</p>
-<input type="submit" value="wyślij"/>
-<p><button type="submit" name="wyślij" onclick="alert('przesłane')"> wyślij </button> </p>
-<p><button type="submit" name="wyślij"> wyślij </button> </p>
-<p> <button type="reset" name="reset"> usuń </button></p>
-<p> <button type="button" name="powrót" style="font:12pt arial; background:red;"> powrót </button></p>
-<p>
-	<select id="days[]" name="days[]" size="7" multipe>
-		<optgroup label="DNI WOLNE">
-			<option> sobota </option>
-			<option> niedziela </option>
-		</optgroup>
-		<optgroup label="DNI ROBOCZE">
-			<option> poniedziałek </option>
-			<option> wtorek </option>
-			<option> środa </option>
-			<option> czwartek </option>
-			<option> piątek </option>
-		</optgroup></select>
-</p>
-<p>
-	<textarea cols="50" rows="6">
-Jan Niezbędny
-ul.nieznana 3
-40-001 Katowice
-Polska
-	</textarea>
-</p>
-<input type="image" name="kot" src="foty/kot.jpg" />
-<input disable="disable" name="nazwisko" value="Podaj nazwisko" size="25" />
-<input readonly name="nazwisko" value="podaj nazwisko" size="25" />
-<p>
-	<label>imię: <input type="text" size="30" maxlength="40"></label>
-</p>
-<fieldset>
-	<legend> wykształcenie: </legend>
-		<p> <input type="radio" name="gr_op" value="podstawowe" accesskey="P" /> podstawowe [skrót ALT + P] <br />
-		<p> <input type="radio" name="gr_op" value="średnie" accesskey="S" /> średnie [skrót ALT + S] <br />
-		<p> <input type="radio" name="gr_op" value="wyższe" accesskey="w" /> wyższe [skrót ALT + W] <br />
-<p>
-	<input name="adres" type="text" autocomplete="on" />
-</p>
-<p>
-	<input name="adres" type="text" autofocus />
-</p>
-<p>
-	<input type="text" name="firstname" value="Łukasz" readonly>
-</p>
-<p>
-	<input type="text" name="firstname" value="Łukasz" disable>
-</p>
-<p>
-	<input type="email">
-</p>
-<p>
-	<input type="url">
-</p>
-<p>
-	<input type="number" min="1" max="7" step="1" value="2">
-</p>
-<p>
-	<input type="date" value="2024-11-18">
-</p>
-<p>
-	<input type="color" value="#F0F0F0">
-</p>
-<p>
-	<input type="color" name="favcolor" value="#00FF00" /> <br />
-</p>
-<p>
-	<input type="submit" value="wuślij zapytanie">
-</p>
-<p>
-	<input type="range" name="points" min="0" max="10">
-</p>
-<p>
-	<input list="blok" name="przeglądarki" />
-</p>
-<p>
-	<datalist id="blok">
-		<option value="internet explorer">
-		<option value="direfox">
-		<option value="chrome">
-	</datalist> <input type="submit" name="prześlij">
-</p>
-<form action="/action_page.php" oninput="x.value=parselnt(a.value)+parselnt(b.value)">
-	0 <input type="range" id="a" name="a" value="50">
-	100+ <input type="number" id="b" name="b" value="50">
-	= <output name="x" dor="a b"> </output>
-<input type="submit">
-</form>
-
 </form>
 	
 	</div>

@@ -1,0 +1,34 @@
+p.z1[align] {
+		color:red;
+		font-size:16pt;
+}
+
+p.z2[align="right"] {
+		color:white;
+		font-size:20pt;
+}
+
+h3[title~="opis"] {
+		color:red;
+		text-decoration:underline;
+		border: 1px red dotted;
+		background-color:white;
+		font-size: 30pt;
+}
+i span {
+		color:blue;
+}
+h3 > ins {
+		color:green;
+}
+div + i{
+		color:red;
+		font-size:18pt;
+}
+h4~i {
+	color:fuchsia;
+	font-size:18pt;
+}
+p > i {
+	color:red;
+}
